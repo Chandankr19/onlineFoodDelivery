@@ -1,0 +1,72 @@
+.col img:hover{
+cursor: pointer;
+}
+.card-body h3:hover{
+    cursor: pointer;
+}
+
+ form[for=fname]{
+
+
+    font-size: 5px;
+}
+
+
+/* Contact section */
+
+
+
+#contact {
+    position: relative;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box form {
+    width: 40%;
+    margin: 34px;
+}
+
+#contact-box label {
+    font-size: 1.1rem;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+#contact h3{
+text-align: center;
+margin: 0px;
+font-size: 2.3rem;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url('../img/pic4.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 665px;
+    z-index: -1;
+    opacity: 0.5;
+}
+   
+/* logo section */
+/* #logo {
+    margin: 13px 34px;
+}
+
+
+#logo img {
+    height: 50px;
+    margin: -9px 1px;
+} */
